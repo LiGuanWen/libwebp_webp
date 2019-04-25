@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0563D53D701EB024540D5D9A6B28273A /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 4161348B56E48E74AA8569FC532328F7 /* mux_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DE2A8F532728F95C2FCCB6E157007C9 /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF8831AA29C39D0EA0A0B03C3020369 /* mux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1304F2D36F325F164238DDCEB43DE1D1 /* muxedit.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F48C80782FFEEF6B13AB6535D9C8723 /* muxedit.c */; };
+		15F5AA433C4A167A7F4AA98D3E5FAF17 /* format_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FAF6E6FC199A8562A71DC53759943B /* format_constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227F9387F18A65C98E88901404D8CB8C /* anim_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 29D6841621F39D9493C1360C643BA6D8 /* anim_encode.c */; };
+		67DEEDA9175D3FB1F347ACCF842ABC90 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849F11E0292793F4074023B96AB2B27 /* decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DED17514D1D3C8157C3B2C91E57B4B5 /* muxread.c in Sources */ = {isa = PBXBuildFile; fileRef = 697A7DB5EFC35CE0382C52AF50F0FFCF /* muxread.c */; };
+		8E3A5E0A378966CC4BEE34A50D22B09C /* Pods-libwebp_webp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D95211D410C60650A4FB76F56F731C14 /* Pods-libwebp_webp-dummy.m */; };
+		8F00690FCDC2702E4549F841E4116915 /* animi.h in Headers */ = {isa = PBXBuildFile; fileRef = 054355D2F9289A70763364C6DF8F5B78 /* animi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9714E3242739DE080290E156B55A2654 /* muxinternal.c in Sources */ = {isa = PBXBuildFile; fileRef = 23984CFEB93918B9BFE03FAD8C93AE3C /* muxinternal.c */; };
+		AD1328935525BE6DA917B46AD9EB16A5 /* libwebp_webp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4721949EBF470A2BF493B259844045E3 /* libwebp_webp-dummy.m */; };
+		B5AA273193DFDDB9F54AF2C6CE30AD58 /* anim_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = E5219AF3121A956933CC8604CEFBDB02 /* anim_decode.c */; };
+		B6F82C0A13BA8B65B25C25FB800F95AE /* demux.c in Sources */ = {isa = PBXBuildFile; fileRef = 34182757F76684640065ACD0DB2A7E2E /* demux.c */; };
+		BF2F757FA69067FA9B815927F02191D8 /* muxi.h in Headers */ = {isa = PBXBuildFile; fileRef = D03EF0CE3CDABBB3F01653216CF8DB45 /* muxi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23624F15DA195109CB97D9292D7FBA0 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CBEC0F4D6778CBA6644811328809D4 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4D954BECDBB1564AD1C5EB3E3DB0E27 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9992A480EFF66B98C5BFB029646E2686 /* encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F384045B841A34E121482697BB34E1D4 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F43F24D6729115818D824E089D5EDF /* demux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF9078988A4F330C5365328A4A9677A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5571D8002CF244B20E5619A229284673;
+			remoteInfo = libwebp_webp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054355D2F9289A70763364C6DF8F5B78 /* animi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = animi.h; path = libwebp_webp_classes/mux/animi.h; sourceTree = "<group>"; };
+		0849F11E0292793F4074023B96AB2B27 /* decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decode.h; path = libwebp_webp_classes/webp/decode.h; sourceTree = "<group>"; };
+		23984CFEB93918B9BFE03FAD8C93AE3C /* muxinternal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = muxinternal.c; path = libwebp_webp_classes/mux/muxinternal.c; sourceTree = "<group>"; };
+		29D6841621F39D9493C1360C643BA6D8 /* anim_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = anim_encode.c; path = libwebp_webp_classes/mux/anim_encode.c; sourceTree = "<group>"; };
+		2F6B51344AE910C8DD5D257E7640697D /* liblibwebp_webp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = liblibwebp_webp.a; path = liblibwebp_webp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F43F24D6729115818D824E089D5EDF /* demux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = demux.h; path = libwebp_webp_classes/webp/demux.h; sourceTree = "<group>"; };
+		34182757F76684640065ACD0DB2A7E2E /* demux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = demux.c; path = libwebp_webp_classes/demux/demux.c; sourceTree = "<group>"; };
+		3DF8831AA29C39D0EA0A0B03C3020369 /* mux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mux.h; path = libwebp_webp_classes/webp/mux.h; sourceTree = "<group>"; };
+		40CBEC0F4D6778CBA6644811328809D4 /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = libwebp_webp_classes/webp/types.h; sourceTree = "<group>"; };
+		4161348B56E48E74AA8569FC532328F7 /* mux_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mux_types.h; path = libwebp_webp_classes/webp/mux_types.h; sourceTree = "<group>"; };
+		4721949EBF470A2BF493B259844045E3 /* libwebp_webp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libwebp_webp-dummy.m"; sourceTree = "<group>"; };
+		4CC18340F816DC35A106193467912529 /* Pods-libwebp_webp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libwebp_webp-frameworks.sh"; sourceTree = "<group>"; };
+		55FAF6E6FC199A8562A71DC53759943B /* format_constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = format_constants.h; path = libwebp_webp_classes/webp/format_constants.h; sourceTree = "<group>"; };
+		66693DBAD8B94DC7FD4350E5B2EFE162 /* Pods-libwebp_webp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libwebp_webp.release.xcconfig"; sourceTree = "<group>"; };
+		6890C69FE21019B43A293F3D38F6D16E /* Pods-libwebp_webp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libwebp_webp-acknowledgements.plist"; sourceTree = "<group>"; };
+		697A7DB5EFC35CE0382C52AF50F0FFCF /* muxread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = muxread.c; path = libwebp_webp_classes/mux/muxread.c; sourceTree = "<group>"; };
+		731DCB9634A7DCC9847D03F3C8EE017E /* libwebp_webp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libwebp_webp-prefix.pch"; sourceTree = "<group>"; };
+		8DB9E7F69F0D6F0FCEC5AD5FBAAC3D5F /* Pods-libwebp_webp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libwebp_webp.debug.xcconfig"; sourceTree = "<group>"; };
+		8F48C80782FFEEF6B13AB6535D9C8723 /* muxedit.c */ = {isa = PBXFileReference; includeInIndex = 1; name = muxedit.c; path = libwebp_webp_classes/mux/muxedit.c; sourceTree = "<group>"; };
+		9137C3D06A6B1E079A5C8738FABCAB59 /* Pods-libwebp_webp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libwebp_webp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9992A480EFF66B98C5BFB029646E2686 /* encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode.h; path = libwebp_webp_classes/webp/encode.h; sourceTree = "<group>"; };
+		9BA312449013303F25267CF1A82D651F /* libwebp_webp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebp_webp.xcconfig; sourceTree = "<group>"; };
+		C01B11E3BE7880EE54D76F9E6A1A45E7 /* Pods-libwebp_webp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libwebp_webp-resources.sh"; sourceTree = "<group>"; };
+		C66D3E35D2B6F35D531698B28210F9BD /* libPods-libwebp_webp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-libwebp_webp.a"; path = "libPods-libwebp_webp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03EF0CE3CDABBB3F01653216CF8DB45 /* muxi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = muxi.h; path = libwebp_webp_classes/mux/muxi.h; sourceTree = "<group>"; };
+		D95211D410C60650A4FB76F56F731C14 /* Pods-libwebp_webp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libwebp_webp-dummy.m"; sourceTree = "<group>"; };
+		E5219AF3121A956933CC8604CEFBDB02 /* anim_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = anim_decode.c; path = libwebp_webp_classes/demux/anim_decode.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F25CA3EF0436D879C7973B0D7685C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAE27C8C37C8790C69E3383F405D3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		160C2AC4A494B9B482CDD2769F9B2F9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B37C892469DF747247957C753C67BA19 /* Pods-libwebp_webp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7310C8793326C688BA8ED453EB865FBD /* webp */ = {
+			isa = PBXGroup;
+			children = (
+				0849F11E0292793F4074023B96AB2B27 /* decode.h */,
+				32F43F24D6729115818D824E089D5EDF /* demux.h */,
+				9992A480EFF66B98C5BFB029646E2686 /* encode.h */,
+				55FAF6E6FC199A8562A71DC53759943B /* format_constants.h */,
+				3DF8831AA29C39D0EA0A0B03C3020369 /* mux.h */,
+				4161348B56E48E74AA8569FC532328F7 /* mux_types.h */,
+				40CBEC0F4D6778CBA6644811328809D4 /* types.h */,
+			);
+			name = webp;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DCB065D64646BB2416DFFFFC5CFC4329 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				D847F40CE6E00433D827717B0410137C /* Products */,
+				160C2AC4A494B9B482CDD2769F9B2F9A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84A49D7D009BD81E93A67EB616F3E574 /* mux */ = {
+			isa = PBXGroup;
+			children = (
+				29D6841621F39D9493C1360C643BA6D8 /* anim_encode.c */,
+				054355D2F9289A70763364C6DF8F5B78 /* animi.h */,
+				8F48C80782FFEEF6B13AB6535D9C8723 /* muxedit.c */,
+				D03EF0CE3CDABBB3F01653216CF8DB45 /* muxi.h */,
+				23984CFEB93918B9BFE03FAD8C93AE3C /* muxinternal.c */,
+				697A7DB5EFC35CE0382C52AF50F0FFCF /* muxread.c */,
+			);
+			name = mux;
+			sourceTree = "<group>";
+		};
+		A684530A81F3AC51233E916F83899E3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA312449013303F25267CF1A82D651F /* libwebp_webp.xcconfig */,
+				4721949EBF470A2BF493B259844045E3 /* libwebp_webp-dummy.m */,
+				731DCB9634A7DCC9847D03F3C8EE017E /* libwebp_webp-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/libwebp_webp";
+			sourceTree = "<group>";
+		};
+		B37C892469DF747247957C753C67BA19 /* Pods-libwebp_webp */ = {
+			isa = PBXGroup;
+			children = (
+				9137C3D06A6B1E079A5C8738FABCAB59 /* Pods-libwebp_webp-acknowledgements.markdown */,
+				6890C69FE21019B43A293F3D38F6D16E /* Pods-libwebp_webp-acknowledgements.plist */,
+				D95211D410C60650A4FB76F56F731C14 /* Pods-libwebp_webp-dummy.m */,
+				4CC18340F816DC35A106193467912529 /* Pods-libwebp_webp-frameworks.sh */,
+				C01B11E3BE7880EE54D76F9E6A1A45E7 /* Pods-libwebp_webp-resources.sh */,
+				8DB9E7F69F0D6F0FCEC5AD5FBAAC3D5F /* Pods-libwebp_webp.debug.xcconfig */,
+				66693DBAD8B94DC7FD4350E5B2EFE162 /* Pods-libwebp_webp.release.xcconfig */,
+			);
+			name = "Pods-libwebp_webp";
+			path = "Target Support Files/Pods-libwebp_webp";
+			sourceTree = "<group>";
+		};
+		CFBFED912B94ECC1F8F4A77A06C0F909 /* demux */ = {
+			isa = PBXGroup;
+			children = (
+				E5219AF3121A956933CC8604CEFBDB02 /* anim_decode.c */,
+				34182757F76684640065ACD0DB2A7E2E /* demux.c */,
+			);
+			name = demux;
+			sourceTree = "<group>";
+		};
+		D847F40CE6E00433D827717B0410137C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B51344AE910C8DD5D257E7640697D /* liblibwebp_webp.a */,
+				C66D3E35D2B6F35D531698B28210F9BD /* libPods-libwebp_webp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB065D64646BB2416DFFFFC5CFC4329 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE84B21BEDA555DA46D89FF2C9D97E65 /* libwebp_webp */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FE84B21BEDA555DA46D89FF2C9D97E65 /* libwebp_webp */ = {
+			isa = PBXGroup;
+			children = (
+				CFBFED912B94ECC1F8F4A77A06C0F909 /* demux */,
+				84A49D7D009BD81E93A67EB616F3E574 /* mux */,
+				A684530A81F3AC51233E916F83899E3B /* Support Files */,
+				7310C8793326C688BA8ED453EB865FBD /* webp */,
+			);
+			name = libwebp_webp;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26E3488D2A63224F8A76C660947CE70A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F00690FCDC2702E4549F841E4116915 /* animi.h in Headers */,
+				67DEEDA9175D3FB1F347ACCF842ABC90 /* decode.h in Headers */,
+				F384045B841A34E121482697BB34E1D4 /* demux.h in Headers */,
+				E4D954BECDBB1564AD1C5EB3E3DB0E27 /* encode.h in Headers */,
+				15F5AA433C4A167A7F4AA98D3E5FAF17 /* format_constants.h in Headers */,
+				0DE2A8F532728F95C2FCCB6E157007C9 /* mux.h in Headers */,
+				0563D53D701EB024540D5D9A6B28273A /* mux_types.h in Headers */,
+				BF2F757FA69067FA9B815927F02191D8 /* muxi.h in Headers */,
+				D23624F15DA195109CB97D9292D7FBA0 /* types.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE27E1C518E5004816A6078918964CC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5571D8002CF244B20E5619A229284673 /* libwebp_webp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF5068274BFFF35BB4B7DADC3482B8F /* Build configuration list for PBXNativeTarget "libwebp_webp" */;
+			buildPhases = (
+				26E3488D2A63224F8A76C660947CE70A /* Headers */,
+				EC9042B95CDA341ACAE785FEC10CACD7 /* Sources */,
+				8F25CA3EF0436D879C7973B0D7685C97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libwebp_webp;
+			productName = libwebp_webp;
+			productReference = 2F6B51344AE910C8DD5D257E7640697D /* liblibwebp_webp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		906A11E62726B61B4461A32E6B8BCA25 /* Pods-libwebp_webp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B9042BF23F0D903A3684B4F21763D2 /* Build configuration list for PBXNativeTarget "Pods-libwebp_webp" */;
+			buildPhases = (
+				DE27E1C518E5004816A6078918964CC9 /* Headers */,
+				2D56AB8F7CD7FE427CD62733A1D39D56 /* Sources */,
+				FDAE27C8C37C8790C69E3383F405D3EC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BDC5517E7C99F05E69593FA3480F7ED /* PBXTargetDependency */,
+			);
+			name = "Pods-libwebp_webp";
+			productName = "Pods-libwebp_webp";
+			productReference = C66D3E35D2B6F35D531698B28210F9BD /* libPods-libwebp_webp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D847F40CE6E00433D827717B0410137C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5571D8002CF244B20E5619A229284673 /* libwebp_webp */,
+				906A11E62726B61B4461A32E6B8BCA25 /* Pods-libwebp_webp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D56AB8F7CD7FE427CD62733A1D39D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3A5E0A378966CC4BEE34A50D22B09C /* Pods-libwebp_webp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9042B95CDA341ACAE785FEC10CACD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AA273193DFDDB9F54AF2C6CE30AD58 /* anim_decode.c in Sources */,
+				227F9387F18A65C98E88901404D8CB8C /* anim_encode.c in Sources */,
+				B6F82C0A13BA8B65B25C25FB800F95AE /* demux.c in Sources */,
+				AD1328935525BE6DA917B46AD9EB16A5 /* libwebp_webp-dummy.m in Sources */,
+				1304F2D36F325F164238DDCEB43DE1D1 /* muxedit.c in Sources */,
+				9714E3242739DE080290E156B55A2654 /* muxinternal.c in Sources */,
+				8DED17514D1D3C8157C3B2C91E57B4B5 /* muxread.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BDC5517E7C99F05E69593FA3480F7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libwebp_webp;
+			target = 5571D8002CF244B20E5619A229284673 /* libwebp_webp */;
+			targetProxy = DF9078988A4F330C5365328A4A9677A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C909C89BE7B35F9395CEC5C44C30904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA312449013303F25267CF1A82D651F /* libwebp_webp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/libwebp_webp/libwebp_webp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A84D6B156D837CFAE10AF16A4B2E0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		590EC7F47E74227A361301843FC5F782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB9E7F69F0D6F0FCEC5AD5FBAAC3D5F /* Pods-libwebp_webp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7E55FE1467BE28AA12299266E145C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B8C28938AE59FFEC613DCD4A214A3EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66693DBAD8B94DC7FD4350E5B2EFE162 /* Pods-libwebp_webp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4B298AD4C34CAAA90DE2E3528A3C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA312449013303F25267CF1A82D651F /* libwebp_webp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/libwebp_webp/libwebp_webp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E55FE1467BE28AA12299266E145C1F /* Debug */,
+				3A84D6B156D837CFAE10AF16A4B2E0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF5068274BFFF35BB4B7DADC3482B8F /* Build configuration list for PBXNativeTarget "libwebp_webp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C909C89BE7B35F9395CEC5C44C30904 /* Debug */,
+				BC4B298AD4C34CAAA90DE2E3528A3C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B9042BF23F0D903A3684B4F21763D2 /* Build configuration list for PBXNativeTarget "Pods-libwebp_webp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590EC7F47E74227A361301843FC5F782 /* Debug */,
+				B8C28938AE59FFEC613DCD4A214A3EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

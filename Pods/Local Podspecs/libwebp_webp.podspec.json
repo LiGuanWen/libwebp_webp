@@ -1,0 +1,44 @@
+{
+  "name": "libwebp_webp",
+  "version": "1.0",
+  "summary": "a collection of HePai utilities and categories",
+  "homepage": "https://github.com/LiGuanWen/libwebp_webp.git",
+  "license": "MIT",
+  "authors": {
+    "liguanwen": "zhangmin@quhepai.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/LiGuanWen/libwebp_webp.git",
+    "branch": "1.0"
+  },
+  "prefix_header_file": "libwebp_webp_classes/libwebp-prefix.pch",
+  "requires_arc": true,
+  "description": "This is a Amazing Project!!!",
+  "default_subspecs": [
+    "core",
+    "demux",
+    "mux",
+    "webp"
+  ],
+  "subspecs": [
+    {
+      "name": "core",
+      "source_files": "libwebp_webp_classes/core/**/*.{h,c}"
+    },
+    {
+      "name": "demux",
+      "source_files": "libwebp_webp_classes/demux/**/*.{h,c}"
+    },
+    {
+      "name": "mux",
+      "source_files": "libwebp_webp_classes/mux/**/*.{h,c}"
+    },
+    {
+      "name": "webp",
+      "source_files": "libwebp_webp_classes/webp/**/*.{h,c}"
+    }
+  ]
+}

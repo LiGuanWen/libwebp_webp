@@ -13,9 +13,12 @@
 		46D8768A2271E27E0054D1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D876892271E27E0054D1D1 /* Assets.xcassets */; };
 		46D8768D2271E27E0054D1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D8768B2271E27E0054D1D1 /* LaunchScreen.storyboard */; };
 		46D876902271E27E0054D1D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D8768F2271E27E0054D1D1 /* main.m */; };
+		5B0F854DD8C1E04AAAE21737 /* libPods-libwebp_webp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 723224803180ACE607DEF6AB /* libPods-libwebp_webp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C68C94984A7498373E39999 /* Pods-libwebp_webp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libwebp_webp.release.xcconfig"; path = "Pods/Target Support Files/Pods-libwebp_webp/Pods-libwebp_webp.release.xcconfig"; sourceTree = "<group>"; };
+		0D925FEFD04D2A56AF9FAA79 /* Pods-libwebp_webp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libwebp_webp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libwebp_webp/Pods-libwebp_webp.debug.xcconfig"; sourceTree = "<group>"; };
 		46D8767D2271E27D0054D1D1 /* libwebp_webp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libwebp_webp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D876802271E27D0054D1D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46D876812271E27D0054D1D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		46D8768C2271E27E0054D1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D8768E2271E27E0054D1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D8768F2271E27E0054D1D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		723224803180ACE607DEF6AB /* libPods-libwebp_webp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libwebp_webp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0F854DD8C1E04AAAE21737 /* libPods-libwebp_webp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03F0F6AA6D39A12970A17207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				723224803180ACE607DEF6AB /* libPods-libwebp_webp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A442543AFA28D5661A522BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D925FEFD04D2A56AF9FAA79 /* Pods-libwebp_webp.debug.xcconfig */,
+				0C68C94984A7498373E39999 /* Pods-libwebp_webp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		46D876742271E27D0054D1D1 = {
 			isa = PBXGroup;
 			children = (
 				46D8767F2271E27D0054D1D1 /* libwebp_webp */,
 				46D8767E2271E27D0054D1D1 /* Products */,
+				1A442543AFA28D5661A522BC /* Pods */,
+				03F0F6AA6D39A12970A17207 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46D876932271E27E0054D1D1 /* Build configuration list for PBXNativeTarget "libwebp_webp" */;
 			buildPhases = (
+				0185134D31899EA6ACDC68F3 /* [CP] Check Pods Manifest.lock */,
 				46D876792271E27D0054D1D1 /* Sources */,
 				46D8767A2271E27D0054D1D1 /* Frameworks */,
 				46D8767B2271E27D0054D1D1 /* Resources */,
+				D569FD5877B6FE18A1472E79 /* [CP] Embed Pods Frameworks */,
+				A74BBB6C5497B9712EAEA035 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0185134D31899EA6ACDC68F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libwebp_webp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74BBB6C5497B9712EAEA035 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libwebp_webp/Pods-libwebp_webp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D569FD5877B6FE18A1472E79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libwebp_webp/Pods-libwebp_webp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46D876792271E27D0054D1D1 /* Sources */ = {
@@ -283,6 +373,7 @@
 		};
 		46D876942271E27E0054D1D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D925FEFD04D2A56AF9FAA79 /* Pods-libwebp_webp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -302,6 +393,7 @@
 		};
 		46D876952271E27E0054D1D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C68C94984A7498373E39999 /* Pods-libwebp_webp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
